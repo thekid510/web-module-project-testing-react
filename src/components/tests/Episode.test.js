@@ -27,7 +27,7 @@ test("renders without error", () => {
 });
 
 test("renders the summury test passed as prop", ()=>{
-    
+    render(<Episode summary={props}/>)
 });
 
 test("renders default image when image is not defined", ()=>{
