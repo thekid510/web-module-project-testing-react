@@ -28,6 +28,7 @@ const fetchShow = () => {
       const { data } = res;
       
       return {
+        id: data.id,
         name: data.name,
         image: data.image,
         summary: stripTags(data.summary),
